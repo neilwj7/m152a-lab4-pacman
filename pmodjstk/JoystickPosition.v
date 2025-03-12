@@ -1,14 +1,14 @@
 `timescale 1ns / 1ps
 
 module JoystickPosition(
-    CLK_100MHz,
-    RST,
-    MISO,
-    //SW,
-    SS,
-    MOSI,
-    SCLK,
-    DIR,
+        CLK_100MHz,
+        RST,
+        MISO,
+        //SW,
+        SS,
+        MOSI,
+        SCLK,
+        DIR,
     );
 
     input CLK_100MHz;

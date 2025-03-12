@@ -123,29 +123,29 @@ set_property PACKAGE_PIN U18 [get_ports RST]
 
 ##Pmod Header JA
 ##Sch name = JA1
-# set_property PACKAGE_PIN J1 [get_ports {SS}]					
-# 	set_property IOSTANDARD LVCMOS33 [get_ports {SS}]
-# #Sch name = JA2
-# set_property PACKAGE_PIN L2 [get_ports {MOSI}]					
-# 	set_property IOSTANDARD LVCMOS33 [get_ports {MOSI}]
-# #Sch name = JA3
-# set_property PACKAGE_PIN J2 [get_ports {MISO}]					
-# 	set_property IOSTANDARD LVCMOS33 [get_ports {MISO}]
-# #Sch name = JA4
-# set_property PACKAGE_PIN G2 [get_ports {SCLK}]					
-# 	set_property IOSTANDARD LVCMOS33 [get_ports {SCLK}]
-#Sch name = JA7
-#set_property PACKAGE_PIN H1 [get_ports {SCLK}]					
-#	set_property IOSTANDARD LVCMOS33 [get_ports {SCLK}]
-##Sch name = JA8
-#set_property PACKAGE_PIN K2 [get_ports {JA[5]}]					
-	#set_property IOSTANDARD LVCMOS33 [get_ports {JA[5]}]
-##Sch name = JA9
-#set_property PACKAGE_PIN H2 [get_ports {JA[6]}]					
-	#set_property IOSTANDARD LVCMOS33 [get_ports {JA[6]}]
-##Sch name = JA10
-#set_property PACKAGE_PIN G3 [get_ports {JA[7]}]					
-	#set_property IOSTANDARD LVCMOS33 [get_ports {JA[7]}]
+set_property PACKAGE_PIN J1 [get_ports {cols[0]}]					
+	set_property IOSTANDARD LVCMOS33 [get_ports {cols[0]}]
+#Sch name = JA2
+set_property PACKAGE_PIN L2 [get_ports {cols[1]}]					
+	set_property IOSTANDARD LVCMOS33 [get_ports {cols[1]}]
+#Sch name = JA3
+set_property PACKAGE_PIN J2 [get_ports {cols[2]}]					
+	set_property IOSTANDARD LVCMOS33 [get_ports {cols[2]}]
+#Sch name = JA4
+set_property PACKAGE_PIN G2 [get_ports {cols[3]}]					
+	set_property IOSTANDARD LVCMOS33 [get_ports {cols[3]}]
+Sch name = JA7
+set_property PACKAGE_PIN H1 [get_ports {rows[0]}]					
+	set_property IOSTANDARD LVCMOS33 [get_ports {rows[0]}]
+#Sch name = JA8
+set_property PACKAGE_PIN K2 [get_ports {rows[1]}]					
+	set_property IOSTANDARD LVCMOS33 [get_ports {rows[1]}]
+#Sch name = JA9
+set_property PACKAGE_PIN H2 [get_ports {rows[2]}]					
+	set_property IOSTANDARD LVCMOS33 [get_ports {rows[2]}]
+#Sch name = JA10
+set_property PACKAGE_PIN G3 [get_ports {rows[3]}]					
+	set_property IOSTANDARD LVCMOS33 [get_ports {rows[3]}]
 
 
 
